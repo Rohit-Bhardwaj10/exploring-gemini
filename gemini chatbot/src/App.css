@@ -5,6 +5,9 @@
   text-align: center;
 }
 
+body{
+  /* overflow-x: hidden; */
+}
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -40,3 +43,45 @@
 .read-the-docs {
   color: #888;
 }
+/*************  ✨ Codeium Command ⭐  *************/
+.main textarea{
+  width: 300px;
+  height: 100px;
+  resize: none;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid none;
+  border-radius: 5px; 
+
+}
+
+.main button{
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/******  93670a78-276c-491e-94b7-a68ed2cbb83b  *******/ 
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+/*************  ✨ Codeium Command ⭐  *************/
+.main pre{
+  /* width: 90%; */
+/*************  ✨ Codeium Command 🌟  *************/
+  padding: 20px;
+  overflow: auto;
+  /* padding: 20px; */
+/******  9e6e3f50-757b-4597-866f-11dbe6fbe663  *******/ 
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+}
+/******  b832e58f-99e3-4475-9239-7ebd5439bed4  *******/ 
